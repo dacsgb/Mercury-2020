@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/catkin_ws/src/joystick_drivers/ps3joy
+# Install script for directory: /home/ros/Git/Mercury-2020/src/joystick_drivers/ps3joy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/Git/Mercury-2020/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/catkin_ws/build/joystick_drivers/ps3joy/catkin_generated/installspace/ps3joy.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Git/Mercury-2020/build/joystick_drivers/ps3joy/catkin_generated/installspace/ps3joy.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy/cmake" TYPE FILE FILES
-    "/home/ros/catkin_ws/build/joystick_drivers/ps3joy/catkin_generated/installspace/ps3joyConfig.cmake"
-    "/home/ros/catkin_ws/build/joystick_drivers/ps3joy/catkin_generated/installspace/ps3joyConfig-version.cmake"
+    "/home/ros/Git/Mercury-2020/build/joystick_drivers/ps3joy/catkin_generated/installspace/ps3joyConfig.cmake"
+    "/home/ros/Git/Mercury-2020/build/joystick_drivers/ps3joy/catkin_generated/installspace/ps3joyConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy" TYPE FILE FILES "/home/ros/catkin_ws/src/joystick_drivers/ps3joy/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy" TYPE FILE FILES "/home/ros/Git/Mercury-2020/src/joystick_drivers/ps3joy/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ps3joy/sixpair"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ps3joy" TYPE EXECUTABLE FILES "/home/ros/catkin_ws/devel/lib/ps3joy/sixpair")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ps3joy" TYPE EXECUTABLE FILES "/home/ros/Git/Mercury-2020/devel/lib/ps3joy/sixpair")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ps3joy/sixpair" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ps3joy/sixpair")
     file(RPATH_CHANGE
@@ -73,18 +73,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy" TYPE DIRECTORY FILES "/home/ros/catkin_ws/src/joystick_drivers/ps3joy/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy" TYPE DIRECTORY FILES "/home/ros/Git/Mercury-2020/src/joystick_drivers/ps3joy/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy" TYPE FILE FILES "/home/ros/catkin_ws/src/joystick_drivers/ps3joy/diagnostics.yaml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ps3joy" TYPE FILE FILES "/home/ros/Git/Mercury-2020/src/joystick_drivers/ps3joy/diagnostics.yaml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ps3joy" TYPE PROGRAM FILES
-    "/home/ros/catkin_ws/src/joystick_drivers/ps3joy/scripts/ps3joy.py"
-    "/home/ros/catkin_ws/src/joystick_drivers/ps3joy/scripts/ps3joy_node.py"
-    "/home/ros/catkin_ws/src/joystick_drivers/ps3joy/scripts/ps3joysim.py"
+    "/home/ros/Git/Mercury-2020/src/joystick_drivers/ps3joy/scripts/ps3joy.py"
+    "/home/ros/Git/Mercury-2020/src/joystick_drivers/ps3joy/scripts/ps3joy_node.py"
+    "/home/ros/Git/Mercury-2020/src/joystick_drivers/ps3joy/scripts/ps3joysim.py"
     )
 endif()
 

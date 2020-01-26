@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.o"
-  "/home/ros/catkin_ws/devel/lib/video_stream_opencv/video_stream.pdb"
-  "/home/ros/catkin_ws/devel/lib/video_stream_opencv/video_stream"
+  "/home/ros/Git/Mercury-2020/devel/lib/video_stream_opencv/video_stream.pdb"
+  "/home/ros/Git/Mercury-2020/devel/lib/video_stream_opencv/video_stream"
 )
 
 # Per-language clean rules from dependency scanning.

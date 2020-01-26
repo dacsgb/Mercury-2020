@@ -2,7 +2,7 @@
 
 message(STATUS "i2cpwm_board: 6 messages, 4 services")
 
-set(MSG_I_FLAGS "-Ii2cpwm_board:/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ii2cpwm_board:/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,54 +17,54 @@ add_custom_target(i2cpwm_board_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" NAME_WE)
 add_custom_target(_i2cpwm_board_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg" "i2cpwm_board/Servo"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" "i2cpwm_board/ServoConfig"
 )
 
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" NAME_WE)
 add_custom_target(_i2cpwm_board_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" ""
 )
 
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg" NAME_WE)
 add_custom_target(_i2cpwm_board_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg" ""
 )
 
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg" NAME_WE)
 add_custom_target(_i2cpwm_board_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv" "i2cpwm_board/Position"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg" "i2cpwm_board/Servo"
 )
 
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv" NAME_WE)
 add_custom_target(_i2cpwm_board_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv" ""
 )
 
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv" NAME_WE)
 add_custom_target(_i2cpwm_board_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" "i2cpwm_board/ServoConfig"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv" "i2cpwm_board/Position"
 )
 
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv" NAME_WE)
 add_custom_target(_i2cpwm_board_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv" ""
 )
 
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg" NAME_WE)
 add_custom_target(_i2cpwm_board_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg" "i2cpwm_board/Position"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg" ""
 )
 
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg" NAME_WE)
 add_custom_target(_i2cpwm_board_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg" "i2cpwm_board/Position"
 )
 
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" NAME_WE)
 add_custom_target(_i2cpwm_board_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" "i2cpwm_board/ServoConfig"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "i2cpwm_board" "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" "i2cpwm_board/ServoConfig"
 )
 
 #
@@ -74,65 +74,65 @@ add_custom_target(_i2cpwm_board_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_cpp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_cpp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_cpp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
+)
+_generate_msg_cpp(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_cpp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
-)
-_generate_msg_cpp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
 )
 
 ### Generating Services
 _generate_srv_cpp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
-)
-_generate_srv_cpp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
-)
-_generate_srv_cpp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
 )
 _generate_srv_cpp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv"
   "${MSG_I_FLAGS}"
   ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
+)
+_generate_srv_cpp(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
+)
+_generate_srv_cpp(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/i2cpwm_board
 )
 
@@ -148,25 +148,25 @@ add_custom_target(i2cpwm_board_generate_messages_cpp
 add_dependencies(i2cpwm_board_generate_messages i2cpwm_board_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_cpp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_cpp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_cpp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_cpp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_cpp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_cpp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_cpp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_cpp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_cpp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_cpp _i2cpwm_board_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -179,65 +179,65 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS i2cpwm_board_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_eus(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_eus(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_eus(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
+)
+_generate_msg_eus(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_eus(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
-)
-_generate_msg_eus(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
 )
 
 ### Generating Services
 _generate_srv_eus(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
-)
-_generate_srv_eus(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
-)
-_generate_srv_eus(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
 )
 _generate_srv_eus(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv"
   "${MSG_I_FLAGS}"
   ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
+)
+_generate_srv_eus(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
+)
+_generate_srv_eus(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/i2cpwm_board
 )
 
@@ -253,25 +253,25 @@ add_custom_target(i2cpwm_board_generate_messages_eus
 add_dependencies(i2cpwm_board_generate_messages i2cpwm_board_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_eus _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_eus _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_eus _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_eus _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_eus _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_eus _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_eus _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_eus _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_eus _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_eus _i2cpwm_board_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -284,65 +284,65 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS i2cpwm_board_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_lisp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_lisp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_lisp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
+)
+_generate_msg_lisp(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_lisp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
-)
-_generate_msg_lisp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
 )
 
 ### Generating Services
 _generate_srv_lisp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
-)
-_generate_srv_lisp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
-)
-_generate_srv_lisp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
 )
 _generate_srv_lisp(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv"
   "${MSG_I_FLAGS}"
   ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
+)
+_generate_srv_lisp(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
+)
+_generate_srv_lisp(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/i2cpwm_board
 )
 
@@ -358,25 +358,25 @@ add_custom_target(i2cpwm_board_generate_messages_lisp
 add_dependencies(i2cpwm_board_generate_messages i2cpwm_board_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_lisp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_lisp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_lisp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_lisp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_lisp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_lisp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_lisp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_lisp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_lisp _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_lisp _i2cpwm_board_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -389,65 +389,65 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS i2cpwm_board_generate_messages_lisp
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_nodejs(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_nodejs(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_nodejs(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
+)
+_generate_msg_nodejs(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_nodejs(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
-)
-_generate_msg_nodejs(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
 )
 
 ### Generating Services
 _generate_srv_nodejs(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
-)
-_generate_srv_nodejs(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
-)
-_generate_srv_nodejs(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
 )
 _generate_srv_nodejs(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv"
   "${MSG_I_FLAGS}"
   ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
+)
+_generate_srv_nodejs(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
+)
+_generate_srv_nodejs(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/i2cpwm_board
 )
 
@@ -463,25 +463,25 @@ add_custom_target(i2cpwm_board_generate_messages_nodejs
 add_dependencies(i2cpwm_board_generate_messages i2cpwm_board_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_nodejs _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_nodejs _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_nodejs _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_nodejs _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_nodejs _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_nodejs _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_nodejs _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_nodejs _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_nodejs _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_nodejs _i2cpwm_board_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -494,65 +494,65 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS i2cpwm_board_generate_messages_node
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_py(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_py(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_py(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
+)
+_generate_msg_py(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
 )
 _generate_msg_py(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg"
   "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
-)
-_generate_msg_py(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
 )
 
 ### Generating Services
 _generate_srv_py(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
-)
-_generate_srv_py(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv"
-  "${MSG_I_FLAGS}"
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
-)
-_generate_srv_py(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
 )
 _generate_srv_py(i2cpwm_board
-  "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv"
   "${MSG_I_FLAGS}"
   ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
+)
+_generate_srv_py(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
+)
+_generate_srv_py(i2cpwm_board
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv"
+  "${MSG_I_FLAGS}"
+  "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/i2cpwm_board
 )
 
@@ -568,25 +568,25 @@ add_custom_target(i2cpwm_board_generate_messages_py
 add_dependencies(i2cpwm_board_generate_messages i2cpwm_board_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_py _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_py _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_py _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_py _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_py _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_py _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_py _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_py _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_py _i2cpwm_board_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg" NAME_WE)
+get_filename_component(_filename "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv" NAME_WE)
 add_dependencies(i2cpwm_board_generate_messages_py _i2cpwm_board_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

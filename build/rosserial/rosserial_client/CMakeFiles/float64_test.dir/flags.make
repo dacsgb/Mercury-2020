@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1
 
-CXX_INCLUDES = -I/home/ros/catkin_ws/src/rosserial/rosserial_client/src -I/home/ros/catkin_ws/devel/include -I/opt/ros/melodic/include -I/usr/src/googletest/googletest/include 
+CXX_INCLUDES = -I/home/ros/Git/Mercury-2020/src/rosserial/rosserial_client/src -I/home/ros/Git/Mercury-2020/devel/include -I/opt/ros/melodic/include -I/usr/src/googletest/googletest/include 
 

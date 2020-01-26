@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/catkin_ws/src/joystick_drivers/joy/src/joy_node.cpp
+/home/ros/Git/Mercury-2020/src/joystick_drivers/joy/src/joy_node.cpp
 unistd.h
 -
 math.h
@@ -22,7 +22,7 @@ dirent.h
 diagnostic_updater/diagnostic_updater.h
 -
 ros/ros.h
-/home/ros/catkin_ws/src/joystick_drivers/joy/src/ros/ros.h
+/home/ros/Git/Mercury-2020/src/joystick_drivers/joy/src/ros/ros.h
 sensor_msgs/Joy.h
 -
 sensor_msgs/JoyFeedbackArray.h

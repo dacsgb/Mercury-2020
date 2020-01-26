@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ros/Git/Mercury-2020/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ros/Git/Mercury-2020/build
 
 # Utility rule file for _run_tests_rosserial_test.
 
@@ -63,10 +63,10 @@ rosserial/rosserial_test/CMakeFiles/_run_tests_rosserial_test.dir/build: _run_te
 .PHONY : rosserial/rosserial_test/CMakeFiles/_run_tests_rosserial_test.dir/build
 
 rosserial/rosserial_test/CMakeFiles/_run_tests_rosserial_test.dir/clean:
-	cd /home/ros/catkin_ws/build/rosserial/rosserial_test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_rosserial_test.dir/cmake_clean.cmake
+	cd /home/ros/Git/Mercury-2020/build/rosserial/rosserial_test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_rosserial_test.dir/cmake_clean.cmake
 .PHONY : rosserial/rosserial_test/CMakeFiles/_run_tests_rosserial_test.dir/clean
 
 rosserial/rosserial_test/CMakeFiles/_run_tests_rosserial_test.dir/depend:
-	cd /home/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_ws/src /home/ros/catkin_ws/src/rosserial/rosserial_test /home/ros/catkin_ws/build /home/ros/catkin_ws/build/rosserial/rosserial_test /home/ros/catkin_ws/build/rosserial/rosserial_test/CMakeFiles/_run_tests_rosserial_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Git/Mercury-2020/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Git/Mercury-2020/src /home/ros/Git/Mercury-2020/src/rosserial/rosserial_test /home/ros/Git/Mercury-2020/build /home/ros/Git/Mercury-2020/build/rosserial/rosserial_test /home/ros/Git/Mercury-2020/build/rosserial/rosserial_test/CMakeFiles/_run_tests_rosserial_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosserial/rosserial_test/CMakeFiles/_run_tests_rosserial_test.dir/depend
 

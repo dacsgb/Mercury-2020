@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"i2cpwm_board\"
 
-CXX_INCLUDES = -I/home/ros/catkin_ws/devel/include -I/home/ros/catkin_ws/src/ros-i2cpwmboard-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/ros/Git/Mercury-2020/devel/include -I/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ros/catkin_ws/src/joystick_drivers/joy/src/joy_node.cpp" "/home/ros/catkin_ws/build/joystick_drivers/joy/CMakeFiles/joy_node.dir/src/joy_node.cpp.o"
+  "/home/ros/Git/Mercury-2020/src/joystick_drivers/joy/src/joy_node.cpp" "/home/ros/Git/Mercury-2020/build/joystick_drivers/joy/CMakeFiles/joy_node.dir/src/joy_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ros/catkin_ws/src/joystick_drivers/joy/msg/cpp"
+  "/home/ros/Git/Mercury-2020/src/joystick_drivers/joy/msg/cpp"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

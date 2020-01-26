@@ -1,4 +1,4 @@
-prefix=/home/ros/catkin_ws/install
+prefix=/home/ros/Git/Mercury-2020/install
 
 Name: rosserial_tivac
 Description: Description of rosserial_tivac

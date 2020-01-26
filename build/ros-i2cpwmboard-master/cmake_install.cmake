@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/catkin_ws/src/ros-i2cpwmboard-master
+# Install script for directory: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/Git/Mercury-2020/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,69 +39,69 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/i2cpwm_board/msg" TYPE FILE FILES
-    "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg"
-    "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg"
-    "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
-    "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg"
-    "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg"
-    "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg"
+    "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg"
+    "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg"
+    "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg"
+    "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg"
+    "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg"
+    "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/i2cpwm_board/srv" TYPE FILE FILES
-    "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv"
-    "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv"
-    "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv"
-    "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv"
+    "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv"
+    "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv"
+    "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv"
+    "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/i2cpwm_board/cmake" TYPE FILE FILES "/home/ros/catkin_ws/build/ros-i2cpwmboard-master/catkin_generated/installspace/i2cpwm_board-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/i2cpwm_board/cmake" TYPE FILE FILES "/home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master/catkin_generated/installspace/i2cpwm_board-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ros/catkin_ws/devel/include/i2cpwm_board")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/ros/Git/Mercury-2020/devel/include/i2cpwm_board")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ros/catkin_ws/devel/share/roseus/ros/i2cpwm_board")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/ros/Git/Mercury-2020/devel/share/roseus/ros/i2cpwm_board")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ros/catkin_ws/devel/share/gennodejs/ros/i2cpwm_board")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/ros/Git/Mercury-2020/devel/share/gennodejs/ros/i2cpwm_board")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/ros/catkin_ws/devel/lib/python2.7/dist-packages/i2cpwm_board")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/ros/Git/Mercury-2020/devel/lib/python2.7/dist-packages/i2cpwm_board")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ros/catkin_ws/devel/lib/python2.7/dist-packages/i2cpwm_board")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/ros/Git/Mercury-2020/devel/lib/python2.7/dist-packages/i2cpwm_board")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/catkin_ws/build/ros-i2cpwmboard-master/catkin_generated/installspace/i2cpwm_board.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master/catkin_generated/installspace/i2cpwm_board.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/i2cpwm_board/cmake" TYPE FILE FILES "/home/ros/catkin_ws/build/ros-i2cpwmboard-master/catkin_generated/installspace/i2cpwm_board-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/i2cpwm_board/cmake" TYPE FILE FILES "/home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master/catkin_generated/installspace/i2cpwm_board-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/i2cpwm_board/cmake" TYPE FILE FILES
-    "/home/ros/catkin_ws/build/ros-i2cpwmboard-master/catkin_generated/installspace/i2cpwm_boardConfig.cmake"
-    "/home/ros/catkin_ws/build/ros-i2cpwmboard-master/catkin_generated/installspace/i2cpwm_boardConfig-version.cmake"
+    "/home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master/catkin_generated/installspace/i2cpwm_boardConfig.cmake"
+    "/home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master/catkin_generated/installspace/i2cpwm_boardConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/i2cpwm_board" TYPE FILE FILES "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/i2cpwm_board" TYPE FILE FILES "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -111,7 +111,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/i2cpwm_board/i2cpwm_board"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/i2cpwm_board" TYPE EXECUTABLE FILES "/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/i2cpwm_board" TYPE EXECUTABLE FILES "/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/i2cpwm_board/i2cpwm_board" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/i2cpwm_board/i2cpwm_board")
     file(RPATH_CHANGE
@@ -125,10 +125,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/i2cpwm_board" TYPE DIRECTORY FILES "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/include/i2cpwm_board/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/i2cpwm_board" TYPE DIRECTORY FILES "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/include/i2cpwm_board/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/i2cpwm_board/launch" TYPE DIRECTORY FILES "/home/ros/catkin_ws/src/ros-i2cpwmboard-master/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/i2cpwm_board/launch" TYPE DIRECTORY FILES "/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/launch/")
 endif()
 

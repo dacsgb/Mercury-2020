@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/catkin_ws/src/launcher
+# Install script for directory: /home/ros/Git/Mercury-2020/src/launcher
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/Git/Mercury-2020/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/catkin_ws/build/launcher/catkin_generated/installspace/launcher.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Git/Mercury-2020/build/launcher/catkin_generated/installspace/launcher.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launcher/cmake" TYPE FILE FILES
-    "/home/ros/catkin_ws/build/launcher/catkin_generated/installspace/launcherConfig.cmake"
-    "/home/ros/catkin_ws/build/launcher/catkin_generated/installspace/launcherConfig-version.cmake"
+    "/home/ros/Git/Mercury-2020/build/launcher/catkin_generated/installspace/launcherConfig.cmake"
+    "/home/ros/Git/Mercury-2020/build/launcher/catkin_generated/installspace/launcherConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launcher" TYPE FILE FILES "/home/ros/catkin_ws/src/launcher/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launcher" TYPE FILE FILES "/home/ros/Git/Mercury-2020/src/launcher/package.xml")
 endif()
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o"
-  "/home/ros/catkin_ws/devel/lib/librosserial_server_lookup.pdb"
-  "/home/ros/catkin_ws/devel/lib/librosserial_server_lookup.so"
+  "/home/ros/Git/Mercury-2020/devel/lib/librosserial_server_lookup.pdb"
+  "/home/ros/Git/Mercury-2020/devel/lib/librosserial_server_lookup.so"
 )
 
 # Per-language clean rules from dependency scanning.

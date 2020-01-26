@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosserial_mbed_generate_messages_cpp"
-  "/home/ros/catkin_ws/devel/include/rosserial_mbed/Adc.h"
-  "/home/ros/catkin_ws/devel/include/rosserial_mbed/Test.h"
+  "/home/ros/Git/Mercury-2020/devel/include/rosserial_mbed/Adc.h"
+  "/home/ros/Git/Mercury-2020/devel/include/rosserial_mbed/Test.h"
 )
 
 # Per-language clean rules from dependency scanning.

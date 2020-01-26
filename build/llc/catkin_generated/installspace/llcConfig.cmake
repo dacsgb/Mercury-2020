@@ -67,14 +67,14 @@ set(llc_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(llc_SOURCE_PREFIX /home/ros/catkin_ws/src/llc)
-  set(llc_DEVEL_PREFIX /home/ros/catkin_ws/devel)
+  set(llc_SOURCE_PREFIX /home/ros/Git/Mercury-2020/src/llc)
+  set(llc_DEVEL_PREFIX /home/ros/Git/Mercury-2020/devel)
   set(llc_INSTALL_PREFIX "")
   set(llc_PREFIX ${llc_DEVEL_PREFIX})
 else()
   set(llc_SOURCE_PREFIX "")
   set(llc_DEVEL_PREFIX "")
-  set(llc_INSTALL_PREFIX /home/ros/catkin_ws/install)
+  set(llc_INSTALL_PREFIX /home/ros/Git/Mercury-2020/install)
   set(llc_PREFIX ${llc_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ros/catkin_ws/install/lib;/home/ros/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/ros/Git/Mercury-2020/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

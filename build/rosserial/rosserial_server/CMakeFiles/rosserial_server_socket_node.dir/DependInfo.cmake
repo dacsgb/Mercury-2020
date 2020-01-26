@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ros/catkin_ws/src/rosserial/rosserial_server/src/socket_node.cpp" "/home/ros/catkin_ws/build/rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/src/socket_node.cpp.o"
+  "/home/ros/Git/Mercury-2020/src/rosserial/rosserial_server/src/socket_node.cpp" "/home/ros/Git/Mercury-2020/build/rosserial/rosserial_server/CMakeFiles/rosserial_server_socket_node.dir/src/socket_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,15 +17,15 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/ros/catkin_ws/src/rosserial/rosserial_server/include"
-  "/home/ros/catkin_ws/devel/include"
+  "/home/ros/Git/Mercury-2020/src/rosserial/rosserial_server/include"
+  "/home/ros/Git/Mercury-2020/devel/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ros/catkin_ws/build/rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/DependInfo.cmake"
+  "/home/ros/Git/Mercury-2020/build/rosserial/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

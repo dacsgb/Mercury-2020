@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosserial_msgs_generate_messages_cpp"
-  "/home/ros/catkin_ws/devel/include/rosserial_msgs/TopicInfo.h"
-  "/home/ros/catkin_ws/devel/include/rosserial_msgs/Log.h"
-  "/home/ros/catkin_ws/devel/include/rosserial_msgs/RequestParam.h"
+  "/home/ros/Git/Mercury-2020/devel/include/rosserial_msgs/TopicInfo.h"
+  "/home/ros/Git/Mercury-2020/devel/include/rosserial_msgs/Log.h"
+  "/home/ros/Git/Mercury-2020/devel/include/rosserial_msgs/RequestParam.h"
 )
 
 # Per-language clean rules from dependency scanning.

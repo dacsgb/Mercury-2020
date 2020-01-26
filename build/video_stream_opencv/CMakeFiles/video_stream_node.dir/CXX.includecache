@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/ros/catkin_ws/src/video_stream_opencv/src/video_stream_node.cpp
+/home/ros/Git/Mercury-2020/src/video_stream_opencv/src/video_stream_node.cpp
 ros/ros.h
 -
 nodelet/loader.h

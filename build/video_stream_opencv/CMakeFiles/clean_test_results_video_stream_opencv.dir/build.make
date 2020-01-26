@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ros/Git/Mercury-2020/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ros/Git/Mercury-2020/build
 
 # Utility rule file for clean_test_results_video_stream_opencv.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
 include video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/progress.make
 
 video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv:
-	cd /home/ros/catkin_ws/build/video_stream_opencv && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/ros/catkin_ws/build/test_results/video_stream_opencv
+	cd /home/ros/Git/Mercury-2020/build/video_stream_opencv && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/ros/Git/Mercury-2020/build/test_results/video_stream_opencv
 
 clean_test_results_video_stream_opencv: video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv
 clean_test_results_video_stream_opencv: video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/build.make
@@ -67,10 +67,10 @@ video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/build:
 .PHONY : video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/build
 
 video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/clean:
-	cd /home/ros/catkin_ws/build/video_stream_opencv && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_video_stream_opencv.dir/cmake_clean.cmake
+	cd /home/ros/Git/Mercury-2020/build/video_stream_opencv && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_video_stream_opencv.dir/cmake_clean.cmake
 .PHONY : video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/clean
 
 video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/depend:
-	cd /home/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_ws/src /home/ros/catkin_ws/src/video_stream_opencv /home/ros/catkin_ws/build /home/ros/catkin_ws/build/video_stream_opencv /home/ros/catkin_ws/build/video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Git/Mercury-2020/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Git/Mercury-2020/src /home/ros/Git/Mercury-2020/src/video_stream_opencv /home/ros/Git/Mercury-2020/build /home/ros/Git/Mercury-2020/build/video_stream_opencv /home/ros/Git/Mercury-2020/build/video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : video_stream_opencv/CMakeFiles/clean_test_results_video_stream_opencv.dir/depend
 

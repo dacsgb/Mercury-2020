@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ros/Git/Mercury-2020/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ros/Git/Mercury-2020/build
 
 # Utility rule file for _i2cpwm_board_generate_messages_check_deps_ServosConfig.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
 include ros-i2cpwmboard-master/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig.dir/progress.make
 
 ros-i2cpwmboard-master/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig:
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py i2cpwm_board /home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv i2cpwm_board/ServoConfig
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py i2cpwm_board /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv i2cpwm_board/ServoConfig
 
 _i2cpwm_board_generate_messages_check_deps_ServosConfig: ros-i2cpwmboard-master/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig
 _i2cpwm_board_generate_messages_check_deps_ServosConfig: ros-i2cpwmboard-master/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig.dir/build.make
@@ -67,10 +67,10 @@ ros-i2cpwmboard-master/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_Ser
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig.dir/build
 
 ros-i2cpwmboard-master/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig.dir/clean:
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && $(CMAKE_COMMAND) -P CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig.dir/cmake_clean.cmake
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && $(CMAKE_COMMAND) -P CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig.dir/cmake_clean.cmake
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig.dir/clean
 
 ros-i2cpwmboard-master/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig.dir/depend:
-	cd /home/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_ws/src /home/ros/catkin_ws/src/ros-i2cpwmboard-master /home/ros/catkin_ws/build /home/ros/catkin_ws/build/ros-i2cpwmboard-master /home/ros/catkin_ws/build/ros-i2cpwmboard-master/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Git/Mercury-2020/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Git/Mercury-2020/src /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master /home/ros/Git/Mercury-2020/build /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/_i2cpwm_board_generate_messages_check_deps_ServosConfig.dir/depend
 

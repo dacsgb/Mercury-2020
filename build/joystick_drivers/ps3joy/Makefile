@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ros/Git/Mercury-2020/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ros/Git/Mercury-2020/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros/catkin_ws/build/CMakeFiles /home/ros/catkin_ws/build/joystick_drivers/ps3joy/CMakeFiles/progress.marks
-	cd /home/ros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_drivers/ps3joy/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/catkin_ws/build/CMakeFiles 0
+	cd /home/ros/Git/Mercury-2020/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ros/Git/Mercury-2020/build/CMakeFiles /home/ros/Git/Mercury-2020/build/joystick_drivers/ps3joy/CMakeFiles/progress.marks
+	cd /home/ros/Git/Mercury-2020/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_drivers/ps3joy/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ros/Git/Mercury-2020/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_drivers/ps3joy/clean
+	cd /home/ros/Git/Mercury-2020/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_drivers/ps3joy/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_drivers/ps3joy/preinstall
+	cd /home/ros/Git/Mercury-2020/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_drivers/ps3joy/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_drivers/ps3joy/preinstall
+	cd /home/ros/Git/Mercury-2020/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_drivers/ps3joy/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ros/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ros/Git/Mercury-2020/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/rule:
-	cd /home/ros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/rule
+	cd /home/ros/Git/Mercury-2020/build && $(MAKE) -f CMakeFiles/Makefile2 joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/rule
 .PHONY : joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ sixpair: joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/rule
 
 # fast build rule for target.
 sixpair/fast:
-	cd /home/ros/catkin_ws/build && $(MAKE) -f joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/build.make joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/build
+	cd /home/ros/Git/Mercury-2020/build && $(MAKE) -f joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/build.make joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/build
 .PHONY : sixpair/fast
 
 src/sixpair.o: src/sixpair.c.o
@@ -188,7 +188,7 @@ src/sixpair.o: src/sixpair.c.o
 
 # target to build an object file
 src/sixpair.c.o:
-	cd /home/ros/catkin_ws/build && $(MAKE) -f joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/build.make joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/src/sixpair.c.o
+	cd /home/ros/Git/Mercury-2020/build && $(MAKE) -f joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/build.make joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/src/sixpair.c.o
 .PHONY : src/sixpair.c.o
 
 src/sixpair.i: src/sixpair.c.i
@@ -197,7 +197,7 @@ src/sixpair.i: src/sixpair.c.i
 
 # target to preprocess a source file
 src/sixpair.c.i:
-	cd /home/ros/catkin_ws/build && $(MAKE) -f joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/build.make joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/src/sixpair.c.i
+	cd /home/ros/Git/Mercury-2020/build && $(MAKE) -f joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/build.make joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/src/sixpair.c.i
 .PHONY : src/sixpair.c.i
 
 src/sixpair.s: src/sixpair.c.s
@@ -206,7 +206,7 @@ src/sixpair.s: src/sixpair.c.s
 
 # target to generate assembly for a file
 src/sixpair.c.s:
-	cd /home/ros/catkin_ws/build && $(MAKE) -f joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/build.make joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/src/sixpair.c.s
+	cd /home/ros/Git/Mercury-2020/build && $(MAKE) -f joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/build.make joystick_drivers/ps3joy/CMakeFiles/sixpair.dir/src/sixpair.c.s
 .PHONY : src/sixpair.c.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ros/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ros/Git/Mercury-2020/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

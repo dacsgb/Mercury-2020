@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ros/Git/Mercury-2020/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ros/Git/Mercury-2020/build
 
 # Utility rule file for sensor_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ joystick_drivers/joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build: 
 .PHONY : joystick_drivers/joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 
 joystick_drivers/joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/ros/catkin_ws/build/joystick_drivers/joy && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/ros/Git/Mercury-2020/build/joystick_drivers/joy && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : joystick_drivers/joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 
 joystick_drivers/joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_ws/src /home/ros/catkin_ws/src/joystick_drivers/joy /home/ros/catkin_ws/build /home/ros/catkin_ws/build/joystick_drivers/joy /home/ros/catkin_ws/build/joystick_drivers/joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Git/Mercury-2020/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Git/Mercury-2020/src /home/ros/Git/Mercury-2020/src/joystick_drivers/joy /home/ros/Git/Mercury-2020/build /home/ros/Git/Mercury-2020/build/joystick_drivers/joy /home/ros/Git/Mercury-2020/build/joystick_drivers/joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : joystick_drivers/joy/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
 

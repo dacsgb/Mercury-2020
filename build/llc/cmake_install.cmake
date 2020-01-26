@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/catkin_ws/src/llc
+# Install script for directory: /home/ros/Git/Mercury-2020/src/llc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/Git/Mercury-2020/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/catkin_ws/build/llc/catkin_generated/installspace/llc.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Git/Mercury-2020/build/llc/catkin_generated/installspace/llc.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/llc/cmake" TYPE FILE FILES
-    "/home/ros/catkin_ws/build/llc/catkin_generated/installspace/llcConfig.cmake"
-    "/home/ros/catkin_ws/build/llc/catkin_generated/installspace/llcConfig-version.cmake"
+    "/home/ros/Git/Mercury-2020/build/llc/catkin_generated/installspace/llcConfig.cmake"
+    "/home/ros/Git/Mercury-2020/build/llc/catkin_generated/installspace/llcConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/llc" TYPE FILE FILES "/home/ros/catkin_ws/src/llc/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/llc" TYPE FILE FILES "/home/ros/Git/Mercury-2020/src/llc/package.xml")
 endif()
 

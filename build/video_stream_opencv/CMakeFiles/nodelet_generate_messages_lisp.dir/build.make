@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ros/Git/Mercury-2020/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ros/Git/Mercury-2020/build
 
 # Utility rule file for nodelet_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/build: nodelet
 .PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/build
 
 video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/clean:
-	cd /home/ros/catkin_ws/build/video_stream_opencv && $(CMAKE_COMMAND) -P CMakeFiles/nodelet_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/ros/Git/Mercury-2020/build/video_stream_opencv && $(CMAKE_COMMAND) -P CMakeFiles/nodelet_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/clean
 
 video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/depend:
-	cd /home/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_ws/src /home/ros/catkin_ws/src/video_stream_opencv /home/ros/catkin_ws/build /home/ros/catkin_ws/build/video_stream_opencv /home/ros/catkin_ws/build/video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Git/Mercury-2020/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Git/Mercury-2020/src /home/ros/Git/Mercury-2020/src/video_stream_opencv /home/ros/Git/Mercury-2020/build /home/ros/Git/Mercury-2020/build/video_stream_opencv /home/ros/Git/Mercury-2020/build/video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : video_stream_opencv/CMakeFiles/nodelet_generate_messages_lisp.dir/depend
 

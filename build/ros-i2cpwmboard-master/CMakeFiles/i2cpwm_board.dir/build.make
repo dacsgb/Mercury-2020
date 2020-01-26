@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ros/Git/Mercury-2020/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ros/Git/Mercury-2020/build
 
 # Include any dependencies generated for this target.
 include ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/depend.make
@@ -58,17 +58,17 @@ include ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/progress.make
 include ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/flags.make
 
 ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.o: ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/flags.make
-ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.o: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/src/i2cpwm_controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.o"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.o -c /home/ros/catkin_ws/src/ros-i2cpwmboard-master/src/i2cpwm_controller.cpp
+ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.o: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/src/i2cpwm_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ros/Git/Mercury-2020/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.o"
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.o -c /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/src/i2cpwm_controller.cpp
 
 ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.i"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/catkin_ws/src/ros-i2cpwmboard-master/src/i2cpwm_controller.cpp > CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.i
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/src/i2cpwm_controller.cpp > CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.i
 
 ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.s"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/catkin_ws/src/ros-i2cpwmboard-master/src/i2cpwm_controller.cpp -o CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.s
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/src/i2cpwm_controller.cpp -o CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.s
 
 ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.o.requires:
 
@@ -88,33 +88,33 @@ i2cpwm_board_OBJECTS = \
 # External object files for target i2cpwm_board
 i2cpwm_board_EXTERNAL_OBJECTS =
 
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.o
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/build.make
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/libroscpp.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/librosconsole.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/librostime.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/libcpp_common.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board: ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/i2cpwm_board.dir/link.txt --verbose=$(VERBOSE)
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/src/i2cpwm_controller.cpp.o
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/build.make
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/libroscpp.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/librosconsole.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/librostime.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /opt/ros/melodic/lib/libcpp_common.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board: ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ros/Git/Mercury-2020/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board"
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/i2cpwm_board.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/build: /home/ros/catkin_ws/devel/lib/i2cpwm_board/i2cpwm_board
+ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/build: /home/ros/Git/Mercury-2020/devel/lib/i2cpwm_board/i2cpwm_board
 
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/build
 
@@ -123,10 +123,10 @@ ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/requires: ros-i2cpwmboard-mas
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/requires
 
 ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/clean:
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && $(CMAKE_COMMAND) -P CMakeFiles/i2cpwm_board.dir/cmake_clean.cmake
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && $(CMAKE_COMMAND) -P CMakeFiles/i2cpwm_board.dir/cmake_clean.cmake
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/clean
 
 ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/depend:
-	cd /home/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_ws/src /home/ros/catkin_ws/src/ros-i2cpwmboard-master /home/ros/catkin_ws/build /home/ros/catkin_ws/build/ros-i2cpwmboard-master /home/ros/catkin_ws/build/ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Git/Mercury-2020/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Git/Mercury-2020/src /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master /home/ros/Git/Mercury-2020/build /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board.dir/depend
 

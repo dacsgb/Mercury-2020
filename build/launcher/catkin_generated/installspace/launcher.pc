@@ -1,4 +1,4 @@
-prefix=/home/ros/catkin_ws/install
+prefix=/home/ros/Git/Mercury-2020/install
 
 Name: launcher
 Description: Description of launcher

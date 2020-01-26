@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ros/Git/Mercury-2020/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ros/Git/Mercury-2020/build
 
 # Utility rule file for roscpp_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ ros-i2cpwmboard-master/CMakeFiles/roscpp_generate_messages_cpp.dir/build: roscpp
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 
 ros-i2cpwmboard-master/CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 ros-i2cpwmboard-master/CMakeFiles/roscpp_generate_messages_cpp.dir/depend:
-	cd /home/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_ws/src /home/ros/catkin_ws/src/ros-i2cpwmboard-master /home/ros/catkin_ws/build /home/ros/catkin_ws/build/ros-i2cpwmboard-master /home/ros/catkin_ws/build/ros-i2cpwmboard-master/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Git/Mercury-2020/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Git/Mercury-2020/src /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master /home/ros/Git/Mercury-2020/build /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 

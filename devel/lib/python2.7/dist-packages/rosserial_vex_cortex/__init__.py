@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/ros/catkin_ws/src/rosserial/rosserial_vex_cortex/src".split(";")
+__extended_path = "/home/ros/Git/Mercury-2020/src/rosserial/rosserial_vex_cortex/src".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

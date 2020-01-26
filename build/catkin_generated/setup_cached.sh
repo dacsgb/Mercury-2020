@@ -7,4 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/ros/catkin_ws/build"
+export CMAKE_PREFIX_PATH="/home/ros/Git/Mercury-2020/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/ros/Git/Mercury-2020/devel/lib:$LD_LIBRARY_PATH"
+export PWD="/home/ros/Git/Mercury-2020/build"
+export PYTHONPATH="/home/ros/Git/Mercury-2020/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/ros/Git/Mercury-2020/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/ros/Git/Mercury-2020/src:$ROS_PACKAGE_PATH"

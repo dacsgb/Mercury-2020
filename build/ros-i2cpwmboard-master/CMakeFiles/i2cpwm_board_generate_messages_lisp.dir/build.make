@@ -43,94 +43,94 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ros/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/ros/Git/Mercury-2020/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ros/catkin_ws/build
+CMAKE_BINARY_DIR = /home/ros/Git/Mercury-2020/build
 
 # Utility rule file for i2cpwm_board_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp.dir/progress.make
 
-ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoArray.lisp
-ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/Position.lisp
-ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfig.lisp
-ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/Servo.lisp
-ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/PositionArray.lisp
-ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfigArray.lisp
-ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/DriveMode.lisp
-ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/ServosConfig.lisp
-ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/IntValue.lisp
-ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/StopServos.lisp
+ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfigArray.lisp
+ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfig.lisp
+ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/Position.lisp
+ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoArray.lisp
+ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/Servo.lisp
+ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/PositionArray.lisp
+ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/IntValue.lisp
+ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/StopServos.lisp
+ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/DriveMode.lisp
+ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/ServosConfig.lisp
 
 
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoArray.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoArray.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoArray.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from i2cpwm_board/ServoArray.msg"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoArray.msg -Ii2cpwm_board:/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfigArray.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfigArray.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfigArray.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Git/Mercury-2020/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from i2cpwm_board/ServoConfigArray.msg"
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg -Ii2cpwm_board:/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg
 
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/Position.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/Position.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from i2cpwm_board/Position.msg"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg -Ii2cpwm_board:/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfig.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfig.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Git/Mercury-2020/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from i2cpwm_board/ServoConfig.msg"
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg -Ii2cpwm_board:/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg
 
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfig.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfig.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from i2cpwm_board/ServoConfig.msg"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg -Ii2cpwm_board:/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/Position.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/Position.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Git/Mercury-2020/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from i2cpwm_board/Position.msg"
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg -Ii2cpwm_board:/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg
 
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/Servo.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/Servo.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from i2cpwm_board/Servo.msg"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Servo.msg -Ii2cpwm_board:/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoArray.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoArray.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoArray.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Git/Mercury-2020/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from i2cpwm_board/ServoArray.msg"
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoArray.msg -Ii2cpwm_board:/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg
 
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/PositionArray.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/PositionArray.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/PositionArray.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from i2cpwm_board/PositionArray.msg"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/PositionArray.msg -Ii2cpwm_board:/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/Servo.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/Servo.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Git/Mercury-2020/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from i2cpwm_board/Servo.msg"
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Servo.msg -Ii2cpwm_board:/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg
 
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfigArray.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfigArray.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfigArray.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from i2cpwm_board/ServoConfigArray.msg"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfigArray.msg -Ii2cpwm_board:/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/PositionArray.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/PositionArray.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/PositionArray.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Git/Mercury-2020/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from i2cpwm_board/PositionArray.msg"
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/PositionArray.msg -Ii2cpwm_board:/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg
 
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/DriveMode.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/DriveMode.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/DriveMode.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/Position.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from i2cpwm_board/DriveMode.srv"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/DriveMode.srv -Ii2cpwm_board:/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/IntValue.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/IntValue.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Git/Mercury-2020/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from i2cpwm_board/IntValue.srv"
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/IntValue.srv -Ii2cpwm_board:/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv
 
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/ServosConfig.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/ServosConfig.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/ServosConfig.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg/ServoConfig.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from i2cpwm_board/ServosConfig.srv"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/ServosConfig.srv -Ii2cpwm_board:/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/StopServos.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/StopServos.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Git/Mercury-2020/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating Lisp code from i2cpwm_board/StopServos.srv"
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/StopServos.srv -Ii2cpwm_board:/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv
 
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/IntValue.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/IntValue.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from i2cpwm_board/IntValue.srv"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/IntValue.srv -Ii2cpwm_board:/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/DriveMode.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/DriveMode.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/DriveMode.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/Position.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Git/Mercury-2020/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from i2cpwm_board/DriveMode.srv"
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/DriveMode.srv -Ii2cpwm_board:/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv
 
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/StopServos.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
-/home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/StopServos.lisp: /home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Lisp code from i2cpwm_board/StopServos.srv"
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/catkin_ws/src/ros-i2cpwmboard-master/srv/StopServos.srv -Ii2cpwm_board:/home/ros/catkin_ws/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/ServosConfig.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/ServosConfig.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv
+/home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/ServosConfig.lisp: /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg/ServoConfig.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/ros/Git/Mercury-2020/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Lisp code from i2cpwm_board/ServosConfig.srv"
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/srv/ServosConfig.srv -Ii2cpwm_board:/home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p i2cpwm_board -o /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv
 
 i2cpwm_board_generate_messages_lisp: ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp
-i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoArray.lisp
-i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/Position.lisp
-i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfig.lisp
-i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/Servo.lisp
-i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/PositionArray.lisp
-i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfigArray.lisp
-i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/DriveMode.lisp
-i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/ServosConfig.lisp
-i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/IntValue.lisp
-i2cpwm_board_generate_messages_lisp: /home/ros/catkin_ws/devel/share/common-lisp/ros/i2cpwm_board/srv/StopServos.lisp
+i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfigArray.lisp
+i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoConfig.lisp
+i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/Position.lisp
+i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/ServoArray.lisp
+i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/Servo.lisp
+i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/msg/PositionArray.lisp
+i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/IntValue.lisp
+i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/StopServos.lisp
+i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/DriveMode.lisp
+i2cpwm_board_generate_messages_lisp: /home/ros/Git/Mercury-2020/devel/share/common-lisp/ros/i2cpwm_board/srv/ServosConfig.lisp
 i2cpwm_board_generate_messages_lisp: ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp.dir/build.make
 
 .PHONY : i2cpwm_board_generate_messages_lisp
@@ -141,10 +141,10 @@ ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp.dir/build:
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp.dir/build
 
 ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp.dir/clean:
-	cd /home/ros/catkin_ws/build/ros-i2cpwmboard-master && $(CMAKE_COMMAND) -P CMakeFiles/i2cpwm_board_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master && $(CMAKE_COMMAND) -P CMakeFiles/i2cpwm_board_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp.dir/clean
 
 ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp.dir/depend:
-	cd /home/ros/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/catkin_ws/src /home/ros/catkin_ws/src/ros-i2cpwmboard-master /home/ros/catkin_ws/build /home/ros/catkin_ws/build/ros-i2cpwmboard-master /home/ros/catkin_ws/build/ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ros/Git/Mercury-2020/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ros/Git/Mercury-2020/src /home/ros/Git/Mercury-2020/src/ros-i2cpwmboard-master /home/ros/Git/Mercury-2020/build /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master /home/ros/Git/Mercury-2020/build/ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros-i2cpwmboard-master/CMakeFiles/i2cpwm_board_generate_messages_lisp.dir/depend
 

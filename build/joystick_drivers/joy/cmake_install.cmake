@@ -1,8 +1,8 @@
-# Install script for directory: /home/ros/catkin_ws/src/joystick_drivers/joy
+# Install script for directory: /home/ros/Git/Mercury-2020/src/joystick_drivers/joy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ros/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/ros/Git/Mercury-2020/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/catkin_ws/build/joystick_drivers/joy/catkin_generated/installspace/joy.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/ros/Git/Mercury-2020/build/joystick_drivers/joy/catkin_generated/installspace/joy.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy/cmake" TYPE FILE FILES
-    "/home/ros/catkin_ws/build/joystick_drivers/joy/catkin_generated/installspace/joyConfig.cmake"
-    "/home/ros/catkin_ws/build/joystick_drivers/joy/catkin_generated/installspace/joyConfig-version.cmake"
+    "/home/ros/Git/Mercury-2020/build/joystick_drivers/joy/catkin_generated/installspace/joyConfig.cmake"
+    "/home/ros/Git/Mercury-2020/build/joystick_drivers/joy/catkin_generated/installspace/joyConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/ros/catkin_ws/src/joystick_drivers/joy/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE FILE FILES "/home/ros/Git/Mercury-2020/src/joystick_drivers/joy/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy/joy_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy" TYPE EXECUTABLE FILES "/home/ros/catkin_ws/devel/lib/joy/joy_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/joy" TYPE EXECUTABLE FILES "/home/ros/Git/Mercury-2020/devel/lib/joy/joy_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy/joy_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/joy/joy_node")
     file(RPATH_CHANGE
@@ -74,10 +74,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/joy" TYPE DIRECTORY FILES
-    "/home/ros/catkin_ws/src/joystick_drivers/joy/migration_rules"
-    "/home/ros/catkin_ws/src/joystick_drivers/joy/scripts"
-    "/home/ros/catkin_ws/src/joystick_drivers/joy/config"
-    "/home/ros/catkin_ws/src/joystick_drivers/joy/launch"
+    "/home/ros/Git/Mercury-2020/src/joystick_drivers/joy/migration_rules"
+    "/home/ros/Git/Mercury-2020/src/joystick_drivers/joy/scripts"
+    "/home/ros/Git/Mercury-2020/src/joystick_drivers/joy/config"
+    "/home/ros/Git/Mercury-2020/src/joystick_drivers/joy/launch"
     USE_SOURCE_PERMISSIONS)
 endif()
 
