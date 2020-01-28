@@ -4,6 +4,7 @@
     <!--machine name="Pi" address="foo-address" ros-root="/u/user/ros/ros/" ros-package-path="/u/user/ros/ros-pkg" user="someone"/-->
     
     <!-- Nodes to be launched on basestation -->
+    <node pkg="rviz" name="visualization" type="rviz" output="screen"/>
     <node pkg="joy" name="joystick" type="joy_node" output="screen"/>
     <node pkg="llc" name="joy_to_cmd" type="joy_to_cmd.py" output="screen"/>
     
