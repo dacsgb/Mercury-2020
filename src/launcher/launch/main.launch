@@ -1,14 +1,24 @@
 <launch>
 
     <!-- Names and addresses of all machines on network -->
-    <!--machine name="Pi" address="foo-address" ros-root="/u/user/ros/ros/" ros-package-path="/u/user/ros/ros-pkg" user="someone"/-->
+    <machine name="Pi" address="192.168.8.169" user="mercury"/>
     
     <!-- Nodes to be launched on basestation -->
-    <node pkg="rviz" name="visualization" type="rviz" output="screen"/>
+    <node pkg="rviz" name="visualization" type="rviz" output="screen" args="-d /home/diego/Git/Mercury-2020/src/Visualization/Camera.rviz"/>
     <node pkg="joy" name="joystick" type="joy_node" output="screen"/>
-    <node pkg="llc" name="joy_to_cmd" type="joy_to_cmd.py" output="screen"/>
+
+
     
     <!-- Nodes to be launched on remote platform -->
-    <!--node pkg="rosserial" name="serial_node1" type="serial_node.py" output="screen" machine="Pi"/-->
-
+    <!--node pkg="llc" name="joy_to_cmd" type="joy_to_cmd.py" output="screen"/-->
+    <!--node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
+        <param name="video_device" value="/dev/video0" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="pixel_format" value="yuyv" />
+        <param name="camera_frame_id" value="usb_cam" />
+        <param name="io_method" value="mmap"/>
+        <param name="framerate" value="60"/>
+    </node-->
+    
 </launch>
