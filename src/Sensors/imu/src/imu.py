@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from mpu6050 import mpu6050 as MPU
+from mpu6050 import mpu6050
 
 import rospy
 from sensor_msgs.msg import Imu
@@ -39,10 +39,10 @@ class Node():
         while not rospy.is_shutdown():
 
             self.fill_msg()
-            self.rate.sleep()
             self.imu_pub.publish(self.msg)
+            self.rate.sleep()
 
 if '__name__' == '__main__':
-    sensor = MPU()
+    sensor = mpu6050(0x68)
     node = Node(sensor)
     node.run()
