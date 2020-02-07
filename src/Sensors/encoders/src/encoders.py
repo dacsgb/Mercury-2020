@@ -34,6 +34,7 @@ class Node():
             self.rate.sleep()
 
 if __name__ == '__main__':
+    rospy.init_node("ENCODERS")
     A = ENCODER(12)
     B = ENCODER(13)
     node = Node(A,B)

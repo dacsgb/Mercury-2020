@@ -24,15 +24,15 @@ class Node():
         self.msg.orientation_covariance[0] = -1
 
         accel_data = self.imu.get_accel_data()
-        self.msg.linear_acceleration.x = accel_data(['x'])
-        self.msg.linear_acceleration.y = accel_data(['y'])
-        self.msg.linear_acceleration.z = accel_data(['z'])
+        self.msg.linear_acceleration.x = accel_data['x']
+        self.msg.linear_acceleration.y = accel_data['y']
+        self.msg.linear_acceleration.z = accel_data['z']
         self.msg.linear_acceleration_covariance[0] = -1
 
         gyro_data = self.imu.get_gyro_data()
-        self.msg.angular_velocity.x = gyro_data(['x'])
-        self.msg.angular_velocity.y = gyro_data(['y'])
-        self.msg.angular_velocity.z = gyro_data(['z'])
+        self.msg.angular_velocity.x = gyro_data['x']
+        self.msg.angular_velocity.y = gyro_data['y']
+        self.msg.angular_velocity.z = gyro_data['z']
         self.msg.angular_velocity_covariance[0] = -1
     
     def run(self):
