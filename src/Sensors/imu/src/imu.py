@@ -42,8 +42,8 @@ class Node():
             self.imu_pub.publish(self.msg)
             self.rate.sleep()
 
-if '__name__' == '__main__':
+if __name__ == "__main__":
     rospy.init_node("IMU")
-    node = Node(0x68)
-    node.run()
-    rospy.spin()
+    Sensor = Node(0x68)
+    Sensor.run()
+
