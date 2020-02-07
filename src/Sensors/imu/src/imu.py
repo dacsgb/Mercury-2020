@@ -6,8 +6,8 @@ import rospy
 from sensor_msgs.msg import Imu
 
 class Node():
-    def __init__(self,Sensor):
-        self.imu = Sensor
+    def __init__(self,add):
+        self.imu = mpu6050(add)
         self.msg = Imu()
         
         self.rate = rospy.Rate(100)
@@ -43,6 +43,7 @@ class Node():
             self.rate.sleep()
 
 if '__name__' == '__main__':
-    sensor = mpu6050(0x68)
-    node = Node(sensor)
+    rospy.init_node("IMU")
+    node = Node(0x68)
     node.run()
+    rospy.spin()
